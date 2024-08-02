@@ -12,7 +12,7 @@
   }
 
   .btn-primary {
-    @apply bg-black text-white transition-colors duration-200 hover:bg-black/80;
+    @apply bg-black text-white transition-colors duration-200 hover:bg-gray-800;
   }
 
   .btn-text {
