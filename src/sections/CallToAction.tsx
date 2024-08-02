@@ -48,9 +48,9 @@ export const CallToAction = () => {
         </div>
         <div className="mt-10 flex justify-center gap-2">
           <button className="btn btn-primary">Get for free</button>
-          <button className="btn btn-text gap-1">
+          <button className="btn btn-text group gap-1">
             <span>Learn more</span>
-            <ArrowRight className="h-5 w-5" />
+            <ArrowRight className="btn-text-arrow h-5 w-5" />
           </button>
         </div>
       </div>

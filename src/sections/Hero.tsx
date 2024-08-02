@@ -44,9 +44,9 @@ export const Hero = () => {
             </p>
             <div className="mt-[30px] flex items-center gap-1">
               <button className="btn btn-primary">Get for free</button>
-              <button className="btn btn-text gap-1">
+              <button className="btn btn-text group gap-1">
                 Learn more
-                <ArrowRight className="h-5 w-5" />
+                <ArrowRight className="btn-text-arrow h-5 w-5" />
               </button>
             </div>
           </div>
