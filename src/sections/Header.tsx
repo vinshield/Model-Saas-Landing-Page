@@ -10,7 +10,7 @@ export const Header = () => {
         <p className="hidden text-white/60 md:block">
           Streamline your workflow and boost your productivity
         </p>
-        <div className="inline-flex items-center gap-1 text-sm text-white">
+        <div className="inline-flex cursor-pointer items-center gap-1 text-sm text-white">
           <p>Get started for free</p>
           <ArrowRight className="h-4 w-4" />
         </div>
