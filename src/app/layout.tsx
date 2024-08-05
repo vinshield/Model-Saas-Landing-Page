@@ -16,19 +16,6 @@ export const metadata: Metadata = {
     description:
       "Sample landing page for a SAAS with beautiful gradients and animations to hold user's attention.",
     url: "https://model-saas-landing-page.vercel.app/",
-    images: [
-      //   {
-      //     url: "../../opengraph-image.png", // Must be an absolute URL
-      //     width: 800,
-      //     height: 600,
-      //   },
-      {
-        url: "../../opengraph-image.png", // Must be an absolute URL
-        width: 1200,
-        height: 630,
-        alt: "My custom alt",
-      },
-    ],
     locale: "en_US",
     type: "website",
   },
