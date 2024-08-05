@@ -1,4 +1,4 @@
-![alt text](opengraph-image.jpeg)
+![alt text](src/app/opengraph-image.png)
 
 This is a sample landing page for a SAAS. I built it with [NextJS](https://nextjs.org/), [TailwindCSS](https://tailwindcss.com/) and [Framer Motion](https://www.framer.com/motion/).
 
