@@ -6,20 +6,22 @@ import { twMerge } from "tailwind-merge";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "Light Saas Landing Page",
-	description: "Template created by Frontend Tribe",
+  title: "Light Saas Landing Page Built With NextJS",
+  description:
+    "Sample landing page for a SAAS with beautiful gradients and animations to hold user's attention.",
+  openGraph: { type: "website" },
 };
 
 export default function RootLayout({
-	children,
+  children,
 }: Readonly<{
-	children: React.ReactNode;
+  children: React.ReactNode;
 }>) {
-	return (
-		<html lang='en' className='relative'>
-			<body className={clsx(dmSans.className, "antialiased bg-[#EAEEFE]")}>
-				{children}
-			</body>
-		</html>
-	);
+  return (
+    <html lang="en" className="relative">
+      <body className={clsx(dmSans.className, "bg-[#EAEEFE] antialiased")}>
+        {children}
+      </body>
+    </html>
+  );
 }
