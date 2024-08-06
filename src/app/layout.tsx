@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Light Saas Landing Page Built With NextJS",
   description:
     "Sample landing page for a SAAS with beautiful gradients and animations to hold user's attention.",
+  metadataBase: new URL("https://model-saas-landing-page.vercel.app/"),
   openGraph: {
     title: "Light Saas Landing Page Built With NextJS",
     description:
